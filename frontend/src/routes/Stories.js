@@ -24,11 +24,15 @@ const StoriesComponent = () => {
               <Link to="/aboutus" className="">           
                 <button className=" hover:bg-gray-300  hover:text-yellow-500 py-2 px-4 rounded-md shadow-md transition duration-300 ease-in-out">About Us</button>
               </Link>
-              <Link to="/stories">
+              <Link to="/results">
               <button className=" hover:bg-gray-300  hover:text-yellow-500 py-2 px-4 rounded-md shadow-md transition duration-300 ease-in-out">Results</button>
               </Link>
+              <Link to="/breathing">
               <button className=" hover:bg-gray-300  hover:text-yellow-500 py-2 px-4 rounded-md shadow-md transition duration-300 ease-in-out">Exercises</button>
+              </Link >
+              <Link to="/learn">
               <button className=" hover:bg-gray-300  hover:text-yellow-500 py-2 px-4 rounded-md shadow-md transition duration-300 ease-in-out">Learn</button>
+              </Link>
               <Link to="/contactus">
                 <button className=" hover:bg-gray-300 hover:text-yellow-500 py-2 px-4 rounded-md shadow-md transition duration-300 ease-in-out">Contact Us</button>
               </Link> 

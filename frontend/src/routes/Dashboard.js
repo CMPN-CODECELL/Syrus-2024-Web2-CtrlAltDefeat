@@ -22,7 +22,7 @@ const DashboardComponent = () => {
               <button className="bg-yellow-500 text-white px-4 py-2 rounded-md shadow-md transition duration-300 ease-in-out hover:bg-yellow-600">Music</button>
             </Link>
             <Link to="/zenmode">
-              <button className="bg-yellow-500 text-white px-4 py-2 rounded-md shadow-md transition duration-300 ease-in-out hover:bg-blue-600">Zen Mode</button>
+              <button className="bg-yellow-500 text-white px-4 py-2 rounded-md shadow-md transition duration-300 ease-in-out hover:bg-yellow-600">Zen Mode</button>
             </Link>
             {/* Add more buttons here */}
             <Link to="/">

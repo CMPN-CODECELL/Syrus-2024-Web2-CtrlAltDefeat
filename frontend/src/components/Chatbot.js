@@ -38,7 +38,7 @@ const Chatbot = () => {
   return (
     <div className="fixed bottom-8 right-8">
       {isChatbotOpen ? (
-        <div className="w-80 border p-4 bg-white shadow-md rounded-lg">
+        <div className="w-100 border p-4 bg-white shadow-md rounded-lg">
           <div className="chatbox bg-gray-100 p-2 rounded-md">
             {messages.map((message, index) => (
               <div key={index} className={`message ${message.user}`}>
